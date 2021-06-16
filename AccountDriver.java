@@ -39,13 +39,13 @@ public class AccountDriver {
      * @return choice
      */
     public static int accountMenu(Scanner keyboard) {
-        System.out.println("Wybierz Konto");
-        System.out.println("1. Sprawdz Konto");
-        System.out.println("2. Konto Oszczednosciowe");
+        System.out.println("Select Account Type");
+        System.out.println("1. Checking Account");
+        System.out.println("2. Savings Account");
 
         int choice;
         do {
-            System.out.print("Twoj Wybór: ");
+            System.out.print("Enter choice: ");
             choice = keyboard.nextInt();
         }while(choice < 1 || choice > 2);
         
